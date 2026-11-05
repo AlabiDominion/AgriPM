@@ -1,0 +1,41 @@
+// Sample records for UI development. These are not saved user projects.
+export const projects = [
+  {
+    id: "1",
+    name: "Maize Farm",
+    type: "crops",
+    status: "active",
+    completedTasks: 3,
+    totalTasks: 5,
+    measurement: "2.5 hectares",
+    dateLabel: "Mar 10 – Jul 20",
+    image: require("../../assets/images/farms/maize-field.png"),
+    startDate: "2026-03-10",
+    endDate: "2026-07-20",
+    plannedBudget: 500000,
+    totalSpent: 320000,
+    objectives: [
+      "Prepare and plant 2.5 hectares of maize",
+      "Track spending throughout the growing season",
+    ],
+  },
+  {
+    id: "2",
+    name: "Poultry Farm",
+    type: "poultry",
+    status: "planning",
+    completedTasks: 0,
+    totalTasks: 0,
+    measurement: "500 birds",
+    dateLabel: "Nov 1 – Feb 28",
+    image: require("../../assets/images/farms/poultry-farm.png"),
+    startDate: "2026-11-01",
+    endDate: "2027-02-28",
+    plannedBudget: 800000,
+    totalSpent: 0,
+    objectives: [
+      "Raise a healthy flock of 500 birds",
+      "Keep feeding and equipment costs within budget",
+    ],
+  },
+];
